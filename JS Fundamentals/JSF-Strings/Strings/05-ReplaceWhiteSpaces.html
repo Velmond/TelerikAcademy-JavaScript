@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 05</title>
+    <link href="styles/Strings.css" rel="stylesheet" />
+    <script src="scripts/CommonScripts.js"></script>
+    <script src="scripts/ReplaceWhiteSpaces.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="text">Input text: </label>
+            <input type="text" id="text" placeholder="Write a function that replaces non breaking white-spaces in a text with &nbsp;" />
+        </div>
+        <button id="executeBtn" onclick="testWhiteSpaceReplacer()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        05. Write a function that replaces non breaking white-spaces in a text with &amp;nbsp;<br /><br />
+        Press 'Execute!' to get the default 'sample' reversed or input your own string.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

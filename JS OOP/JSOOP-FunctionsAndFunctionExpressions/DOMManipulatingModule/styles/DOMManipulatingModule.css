@@ -1,0 +1,34 @@
+.toRemove {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    background: #ccaaaa;
+}
+
+.toRemove p {
+    margin: 5px;
+}
+
+.toRemove #removeBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 100px;
+    background-color: #cc8888;
+    color: darkred;
+    border: 1px solid darkred;
+}
+
+.toRemove #removeBtn:hover {
+    background-color: #cccccc;
+}
+
+.childDiv {
+    width: 100px;
+    height: 25px;
+    border: 5px solid gray;
+    background: lightgray;
+    display: inline-block;
+}

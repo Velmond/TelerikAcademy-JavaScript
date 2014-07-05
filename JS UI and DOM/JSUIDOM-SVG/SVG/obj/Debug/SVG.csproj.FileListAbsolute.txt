@@ -1,0 +1,5 @@
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-SVG\SVG\bin\SVG.dll
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-SVG\SVG\bin\SVG.pdb
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-SVG\SVG\obj\Debug\SVG.csprojResolveAssemblyReference.cache
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-SVG\SVG\obj\Debug\SVG.dll
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-SVG\SVG\obj\Debug\SVG.pdb

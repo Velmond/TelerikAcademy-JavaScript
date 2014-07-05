@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework 06 - Group People By Different Criteria</title>
+    <link href="styles/UsingObjects.css" rel="stylesheet" />
+    <script src="scripts/UsingObjects.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <button id="executeBtn" onclick="testGrouping()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        06. Write a function that groups an array of persons by age, first or last name. The function must return an associative array, with keys - the groups, and values -arrays with persons in this groups.<br />
+        &nbsp;&nbsp;- Use function overloading (i.e. just one function)<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;var persons = {...};<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;var groupedByFname = group(persons, 'firstname');<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;var groupedByAge= group(persons, 'age');<br /><br />
+        Press 'Execute!' (the array is hardcoded and will be displayed along with the result after you press the button).
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-ConditionalStatements\ConditionalStatements\bin\ConditionalStatements.dll
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-ConditionalStatements\ConditionalStatements\bin\ConditionalStatements.pdb
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-ConditionalStatements\ConditionalStatements\obj\Debug\ConditionalStatements.csprojResolveAssemblyReference.cache
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-ConditionalStatements\ConditionalStatements\obj\Debug\ConditionalStatements.dll
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-ConditionalStatements\ConditionalStatements\obj\Debug\ConditionalStatements.pdb

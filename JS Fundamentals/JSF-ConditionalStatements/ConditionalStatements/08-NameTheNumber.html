@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework08 - Name The Number</title>
+    <script src="scripts/commonScript.js"></script>
+    <script src="scripts/08-NameTheNumber.js"></script>
+    <link href="styles/commonStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="inputValue">Input number: </label>
+            <input type="text" id="inputValue" placeholder="0" />
+        </div>
+        <button id="executeBtn" onclick="nameTheNumber()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        Input a number between 0 and 999 to get it's name in English.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

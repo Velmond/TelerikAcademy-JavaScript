@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 06 - Is Point In A Circle</title>
+    <link href="styles/OperatorsExpressions.css" rel="stylesheet" />
+    <script src="scripts/OperatorsExpressions.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="pointX">Input X coord: </label>
+            <input type="text" id="pointX" placeholder="0" />
+        </div>
+        <div class="input">
+            <label for="pointY">Input Y coord: </label>
+            <input type="text" id="pointY" placeholder="0" />
+        </div>
+        <button id="executeBtn" onclick="isInCircle()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        Input the coordinates of a point to see if it is within the circle K(O, 5).
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('inputContainer').style.height = '62px';
+    </script>
+</body>
+</html>

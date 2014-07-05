@@ -1,0 +1,5 @@
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-jQueryOverview\jQueryOverview\bin\jQueryOverview.dll
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-jQueryOverview\jQueryOverview\bin\jQueryOverview.pdb
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-jQueryOverview\jQueryOverview\obj\Debug\jQueryOverview.csprojResolveAssemblyReference.cache
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-jQueryOverview\jQueryOverview\obj\Debug\jQueryOverview.dll
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-jQueryOverview\jQueryOverview\obj\Debug\jQueryOverview.pdb

@@ -1,0 +1,5 @@
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-KineticJS\KineticJS\bin\KineticJS.dll
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-KineticJS\KineticJS\bin\KineticJS.pdb
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-KineticJS\KineticJS\obj\Debug\KineticJS.csprojResolveAssemblyReference.cache
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-KineticJS\KineticJS\obj\Debug\KineticJS.dll
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-KineticJS\KineticJS\obj\Debug\KineticJS.pdb

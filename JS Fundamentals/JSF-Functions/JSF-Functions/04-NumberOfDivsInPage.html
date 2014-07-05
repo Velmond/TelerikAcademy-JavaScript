@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework 04 - Find The Number Of Divs In Page</title>
+    <link href="styles/Functions.css" rel="stylesheet" />
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+    <script src="scripts/Functions.js" type="text/javascript"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="element">Element name: </label>
+            <input type="text" id="element" placeholder="Input element name here" value="div" />
+        </div>
+        <button id="executeBtn" onclick="getElementsCount()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        04. Write a function to count the number of divs on the web page.<br /><br />
+		Press 'Execute!' and see how many divs there are in abv.bg's code that is<br />
+        hidden in this page. You can also write in another element to look for.
+    </section>
+
+    <section class="hidden">
+        <div id="chromeExt" class="fasha" style="display: block;">
+            <div class="left">
+                <a href="#" class="moreinfo">
+                    <div class="logo"></div>
+                    <div class="message">АБВ добавка за Google Chrome - Бъдете в час с писмата си!</div>
+                    <span class="clear"></span>
+                </a>
+            </div>
+            <div class="right">
+                <a href="#" class="addon">Инсталирай</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" target="_blank">Научи повече</a>
+            </div>
+            <div class="close"></div>
+        </div>
+        <div id="explorerAddfav" class="fasha">
+            <div class="left">
+                <div class="moreinfo">
+                    <div class="logo"></div>
+                    <div class="message">Направи АБВ своя начална страница!</div>
+                    <span class="clear"></span>
+                </div>
+            </div>
+            <div class="close"></div>
+        </div>
+        <div id="ffExt" class="fasha">
+            <div class="left">
+                <a class="moreinfo" href="#" target="_blank">
+                    <div class="logo"></div>
+                    <div class="message">АБВ добавка за Firefox - бъдете в час с писмата си!</div>
+                    <span class="clear"></span>
+                </a>
+            </div>
+            <div class="close"></div>
+        </div>
+        <div id="wrapper">
+            <div id="toplinks">
+                <div class="left">
+                    <strong>АБВ Поща</strong>
+                    &nbsp;|&nbsp;
+                    <a href="#">DOX</a>
+                    &nbsp;|&nbsp;
+                    <a href="#" target="_blank">АБВ на твой домейн</a>
+                </div>
+                <a class="right" href="#"><strong>Регистрация в АБВ</strong></a>
+            </div>
+            <div id="siteContent">
+                <header id="mainHeader">
+                    <h1><a href="#">АБВ Поща</a></h1>
+                    <form name="GForm1" id="searchForm" method="get" action="#" target="_blank">
+                        <input type="text" value="" name="q" class="textField defaultValue" title="Търсене в интернет">
+                        <div id="powGoogle"></div>
+                        <div class="searchButton"></div>
+                    </form>
+                    <a href="#" id="mobileVersion">Мобилна версия</a>
+                </header>
+                <div id="rowAdv">Реклама</div>
+                <form action="#" method="post" name="LogInForm" id="loginForm">
+                    <input type="hidden" name="host" value="mail01.abv.bg">
+                    <input type="hidden" name="service" value="mail">
+                    <div id="leftSide">
+                        <h2>Вход в АБВ Поща</h2>
+                        <label for="username">АБВ потребител</label>
+                        <input type="text" id="username" name="username" tabindex="1" class="textField">
+                        <label for="password">Парола</label>
+                        <input type="password" name="password" id="password" tabindex="2" class="textField">
+                        <input type="submit" value="" name="loginBut" id="loginBut">
+                        <a href="#" id="lostPasswordLink">Забравена парола</a>
+                        <span class="clear"></span>
+                        <div class="sepLine"></div>
+                        Нямаш профил в АБВ?
+                        &nbsp;&nbsp;
+                        <a href="#"><strong>Регистрирай се!</strong></a>
+                    </div>
+                    <div id="promoZone">
+                        <a href="#" style="background-image: url(#); background-position: initial initial; background-repeat: initial initial;"></a>
+                    </div>
+                </form>
+                <div id="banner_300x250">
+                    <div id="nonstandartBanHolder"></div>
+                </div>
+                <br class="clear">
+                <div style="position: relative; top: 25px;"></div>
+                <div id="rsHolder">
+                    <div id="resetSettings">Възстанови първоначалната подредба на блоковете</div>
+                    <div class="close"></div>
+                </div>
+                <div id="blocks">
+                    <div class="column left ui-sortable">
+                        <div class="block" id="1">
+                            <section>
+                                <header class="clearfix">
+                                    <h1>
+                                        <a href="#">Новини</a>
+                                    </h1>
+                                    <a href="#" class="siteLink">Vesti.bg</a>
+                                    <a href="#" class="lastNews">Последни новини</a>
+                                    <div class="targetholder small">&nbsp;</div>
+                                </header>
+                                <div id="newsHolder">
+                                    <div id="newsImageHolder">
+                                        <a href="#" target="_blank">
+                                            <div class="image" style="background-image: url(#); background-position: 0 0; background-repeat: no-repeat no-repeat;">
+                                                &nbsp;
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="newsLinks">
+                                        <a href="#" class="">Депутатите си гласуваха 10 дни ваканция преди изборите</a>
+                                        <a href="#" class="">Плевнелиев: ЕС трябва да има силен единен глас за Украйна</a>
+                                        <a href="#" class="">Русия ще налага санкции на САЩ по таен списък</a>
+                                        <a href="#" class="selected">Нана и Миро отпаднаха от "Денсинг старс"</a>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="block" id="2">
+                            <section>
+                                <header class="clearfix">
+                                    <h1>
+                                        <a href="#">Спорт</a>
+                                    </h1>
+                                    <a href="#" class="siteLink">Gong.bg</a>
+                                    <a href="#" class="lastNews">Водещи новини</a>
+                                    <div class="targetholder small">&nbsp;</div>
+                                </header>
+                                <div id="sportHolder">
+                                    <div id="sportImageHolder">
+                                        <a href="#" target="_blank">
+                                            <div class="image" style="background:url('#') no-repeat top left;">
+                                                &nbsp;
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="sportLinks">
+                                        <a href="#" class="selected">Без много зор Литекс спечели битката с Ботев за 3-o място</a>
+                                        <a href="#">Изумителният Гигс: Още мога да играя</a>
+                                        <a href="#">Гласят мача Кличко - Пулев за Германия през септември</a>
+                                        <a href="#">ВИДЕО: Да те хване в засада жена</a>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="block" id="3">
+                            <section class="smallpad">
+                                <header class="clearfix noborder">
+                                    <h1>
+                                        <a href="#">За жените</a>
+                                    </h1>
+                                    <a href="#" class="siteLink">Edna.bg</a>
+                                    <div class="targetholder medium">&nbsp;</div>
+                                </header>
+                                <div id="ednaShow" class="slideShow">
+                                    &nbsp;<div class="toShow1 slideFrame">
+                                        <p class="newsCaption">
+                                            <a href="#" target="_blank">Ядем ли риба</a>
+                                        </p>
+                                        <a href="#" target="_blank">
+                                            <img src="#" alt="" width="260" height="180">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="ednaControls" class="controls"></div>
+                                <div class="DirectionsControl">
+                                    <button class="prev found">&nbsp;</button>
+                                    <button class="next found">&nbsp;</button>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="block" id="4">
+                            <section>
+                                <header class="clearfix noborder">
+                                    <h1>
+                                        <a href="#" id="funHeadLink">Забавно</a>
+                                    </h1>
+                                    <a href="#" class="siteLink" id="funLink">Vbox7.com</a>
+                                    <div class="targetholder medium">&nbsp;</div>
+                                </header>
+                                <div id="funShow" class="slideShow">
+                                    &nbsp;<div class="toShow1 slideFrame">
+                                        <a class="linkCat" href="#" target="_blank">Vbox7.com</a>
+                                        <a href="#" class="icon movie"></a>
+                                        <span class="newsCat">Видео</span><p class="newsCaption">
+                                            <a href="#" target="_blank">10 Непознати ястия от националната ни кухня</a>
+                                        </p> <a href="#" target="_blank">
+                                            <img src="#" alt="" width="260" height="180">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="funControls" class="controls">
+                                    <a href="#">1</a>
+                                    <a href="#" class="active">2</a>
+                                    <a href="#">3</a>
+                                    <a href="#">4</a>
+                                    <a href="#">5</a>
+                                </div>
+                                <div class="DirectionsControl">
+                                    <button class="prev found">&nbsp;</button>
+                                    <button class="next found">&nbsp;</button>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="column right ui-sortable">
+                        <div class="block" id="5">
+                            <section>
+                                <header class="clearfix">
+                                    <h1><span>Дата / Час</span></h1>
+                                    <div class="targetholder large">&nbsp;</div>
+                                </header>
+                                <div id="dateTime">
+                                    <div id="clock"><canvas id="clockCanvas" width="112" height="112"></canvas></div>
+                                    <div id="dayInfo">
+                                        <span id="dayContainer">Петък</span>
+                                        <div class="day"><span id="dateContainer">9</span></div>
+                                        <div class="monthyear"><span id="monthContainer">Май</span><br><span id="yearContainer">2014</span></div>
+                                    </div>
+                                    <div id="calendar">
+                                        <div id="dayrow">
+                                            <div class="cell">П</div>
+                                            <div class="cell">В</div>
+                                            <div class="cell">С</div>
+                                            <div class="cell">Ч</div>
+                                            <div class="cell">П</div>
+                                            <div class="cell weekend">С</div>
+                                            <div class="cell last weekend">Н</div>
+                                        </div>
+                                        <span class="clear">&nbsp;</span>
+                                        <div id="days"><div class="cell ">&nbsp;</div><div class="cell ">&nbsp;</div><div class="cell ">&nbsp;</div><div class="cell ">1</div><div class="cell ">2</div><div class="cell weekend">3</div><div class="cell weekend">4</div><br clear="all"><div class="cell ">5</div><div class="cell ">6</div><div class="cell ">7</div><div class="cell ">8</div><div class="cell cday">9</div><div class="cell weekend">10</div><div class="cell weekend">11</div><br clear="all"><div class="cell ">12</div><div class="cell ">13</div><div class="cell ">14</div><div class="cell ">15</div><div class="cell ">16</div><div class="cell weekend">17</div><div class="cell weekend">18</div><br clear="all"><div class="cell ">19</div><div class="cell ">20</div><div class="cell ">21</div><div class="cell ">22</div><div class="cell ">23</div><div class="cell weekend">24</div><div class="cell weekend">25</div><br clear="all"><div class="cell ">26</div><div class="cell ">27</div><div class="cell ">28</div><div class="cell ">29</div><div class="cell ">30</div><div class="cell weekend">31</div></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="block" id="6">
+                            <div id="sinoptik">
+                                <section>
+                                    <header class="clearfix">
+                                        <h1>
+                                            <a href="#">Времето</a>
+                                        </h1>
+                                        <a href="#" class="siteLink">Sinoptik.bg</a>
+                                        <div class="targetholder medium">&nbsp;</div>
+                                    </header>
+                                    <div id="sinoptikContent">
+                                        <div class="info">
+                                            <div class="left" id="currentCity">София</div>
+                                            <a class="right" href="#">10-дневна прогноза</a>
+                                        </div>
+                                        <div class="infoMore" style="">
+                                            <ul>
+                                                <li id="w100727011">София</li>
+                                                <li id="w100732770">Бургас</li>
+                                                <li id="w100733722">Ахтопол</li>
+                                                <li id="w307000006">Черни връх</li>
+                                                <li id="w100728193">Пловдив</li>
+                                                <li id="w100727523">Русе</li>
+                                                <li id="w100727329">Шабла</li>
+                                                <li id="w305021306">Мусала</li>
+                                                <li id="w100726050">Варна</li>
+                                                <li id="w100728203">Плевен</li>
+                                                <li id="w100727447">Сандански</li>
+                                                <li id="w100733055">Боровец</li>
+                                            </ul>
+                                            <div id="citySearch">
+                                                <div id="lHolder">&nbsp;</div>
+                                                <input type="text" class="text defaultValue" title="Избери град от Европа, Америка...">
+                                                <div class="searchButton">&nbsp;</div>
+                                            </div>
+                                            <div id="searchResults">
+                                                <span class="caption">&nbsp;</span>
+                                                <br>
+                                            </div>
+                                            <br class="clear">
+                                        </div>
+                                        <div id="sinoptikLinkHolder" class="clearfix">
+                                            <a id="sinoptikLink" href="#"></a>
+                                            <a id="sinoptikLinkToday" href="#"></a>
+                                            <a id="sinoptikLinkTomorrow" href="#"></a>
+                                            <div id="sLoader" style="display: none;">&nbsp;</div>
+                                        </div>
+                                        <div class="infocell first">
+                                            <span class="time">В момента</span>
+                                            <div class="image" style="background-image: url(#); background-position: 50% 50%; background-repeat: no-repeat no-repeat;">&nbsp;</div>
+                                            <div class="digits">
+                                                <div class="gradus">
+                                                    <span>12°C</span>
+                                                </div>
+                                                <div class="smallgradus">
+                                                    Усеща се: <span>12°</span>
+                                                </div>
+                                                <div class="forecast">Предимно ясно</div>
+                                            </div>
+                                        </div>
+                                        <div class="infocell">
+                                            <span class="time">Днес</span>
+                                            <div class="image" style="background-image: url(#); background-position: 50% 50%; background-repeat: no-repeat no-repeat;">&nbsp;</div>
+                                            <div class="digits">
+                                                <div class="smallgradus">
+                                                    <span class="grey">8°</span>&nbsp;<strong>|</strong>&nbsp;<span>18°</span>
+                                                </div>
+                                                <div class="forecast">Предимно облачно</div>
+                                            </div>
+                                        </div>
+                                        <div class="infocell last">
+                                            <span class="time">Утре</span>
+                                            <div class="image" style="background-image: url(#); background-position: 50% 50%; background-repeat: no-repeat no-repeat;">&nbsp;</div>
+                                            <div class="digits">
+                                                <div class="smallgradus">
+                                                    <span class="grey">8°</span>&nbsp;<strong>|</strong>&nbsp;<span>20°</span>
+                                                </div>
+                                                <div class="forecast">Предимно облачно, кратък дъжд</div>
+                                            </div>
+                                        </div>
+                                        <span class="clear">&nbsp;</span>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="block" id="7">
+                            <section>
+                                <header class="clearfix">
+                                    <h1>
+                                        <a href="#">Бизнес</a>
+                                    </h1>
+                                    <a href="#" class="siteLink">Pariteni.bg</a>
+                                    <div class="targetholder pari">&nbsp;</div>
+                                </header>
+                                <div id="pariteniContent">
+                                    <div id="pariteniLinks">
+                                        <a href="#">147 са милионерите в България </a>
+                                        <br class="clear">
+                                        <a href="#">100 хил. работни места за година в ИТ сектора </a>
+                                        <br class="clear">
+                                        <a href="#">Не ни искат адреса за залози в интернет</a>
+                                        <br class="clear">
+                                    </div>
+                                    <div id="currency">
+                                        <div class="toprow">
+                                            <a href="#" target="_blank">Валутни курсове</a>&nbsp;<time>- 09.05.2014</time>
+                                        </div>
+                                        <div class="table">
+                                            <div class="captions">
+                                                <div class="first">Валута</div>
+                                                <div>Лева</div>
+                                                <div class="last">За 1 лев</div>
+                                            </div>
+                                            <div class="currencyrow">
+                                                <div class="first">USD</div>
+                                                <div class="down">
+                                                    <u>1.40173</u>
+                                                </div>
+                                                <div class="last">
+                                                    <u>0.713404</u>
+                                                </div>
+                                                <div class="first">EUR</div>
+                                                <div>
+                                                    <u>1.95583</u>
+                                                </div>
+                                                <div class="last">
+                                                    <u>0.511292</u>
+                                                </div>
+                                                <div class="first">CHF</div>
+                                                <div class="up">
+                                                    <u>1.60604</u>
+                                                </div>
+                                                <div class="last">
+                                                    <u>0.622649</u>
+                                                </div>
+                                                <div class="first">GBP</div>
+                                                <div class="down">
+                                                    <u>2.3756</u>
+                                                </div>
+                                                <div class="last">
+                                                    <u>0.420946</u>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="block" id="8">
+                            <div id="astro">
+                                <section>
+                                    <header class="clearfix">
+                                        <h1>
+                                            <a href="#">Хороскопи</a>
+                                        </h1>
+                                        <a href="#" class="siteLink">Edna.bg/horoskopi</a>
+                                        <div class="targetholder astro">&nbsp;</div>
+                                    </header>
+                                    <div id="astroContent">
+                                        <div class="info">
+                                            <div class="left">
+                                                <div>Телец</div>&nbsp;<span>
+                                                    (
+                                                    <span class="startDate">21.04</span>-
+                                                    <span class="endDate">21.05</span>)
+                                                </span>
+                                            </div>
+                                            <a class="right" href="#">Месечен</a>
+                                        </div>
+                                        <div class="infoMore" style="display: none;">
+                                            <ul>
+                                                <li id="z1">Овен</li>
+                                                <li id="z4">Рак</li>
+                                                <li id="z7">Везни</li>
+                                                <li id="z10">Козирог</li>
+                                                <li id="z2" class="selected">Телец</li>
+                                                <li id="z5">Лъв</li>
+                                                <li id="z8">Скорпион</li>
+                                                <li id="z11">Водолей</li>
+                                                <li id="z3">Близнаци</li>
+                                                <li id="z6">Дева</li>
+                                                <li id="z9">Стрелец</li>
+                                                <li id="z12">Риби</li>
+                                            </ul>
+                                        </div>
+                                        <div id="infoHolder">
+                                            <a class="image" href="#" style="background-repeat:no-repeat;background-position: 50% 50%;background-image:url('#');"></a><p>Днес се стремете да постигнете единомислие с колега или делови партньор, особено ако работите заедно по определен проект. Постарайте се да проявите дискретност по отношение на информация, дадена ви от човек, който и друг път ви е предпазвал в неприятни ситуации.</p>
+                                        </div>
+                                        <span class="clear">&nbsp;</span>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <br class="clear">
+                </div>
+            </div>
+            <footer>
+                <div id="footerInner">
+                    <ul>
+                        <li>
+                            <span>Да организирам</span>
+                            <p>
+                                <a href="#">АБВ Поща</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">DOX</a><br><a href="#">АБВ на твой домейн</a><br><a href="#">Host</a>
+                            </p>
+                        </li>
+                        <li>
+                            <span>Да намирам</span>
+                            <p>
+                                <a href="#">Гювеч</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Автомобили</a><br><a href="#">Изгодни оферти</a><br><a href="#">Сравни</a>
+                            </p>
+                        </li>
+                        <li>
+                            <span>Да се информирам</span>
+                            <p>
+                                <a href="#">Новини</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Спорт</a><br><a href="#">Пари</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Времето</a><br><a href="#">За жените</a>
+                            </p>
+                        </li>
+                        <li>
+                            <span>Да се забавлявам</span>
+                            <p>
+                                <a href="#">Видео</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Игри</a><br><a href="#">Музика</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Картички</a>
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="separator"></div>
+                    <div class="corpLinks">
+                        <a href="#">За реклама</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Adwise реклама</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">За нас</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Портфолио</a><br><a href="#">Пишете ни</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Помощ</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Блог</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Общи условия</a><br>
+                        <br><br>
+                        <p>© 1999-2014 "Дарик Нет" АД <a href="#">Всички права запазени.</a></p>
+                    </div>
+                    <br class="clear">
+                </div>
+            </footer>
+            <img id="countPx" src="#" style="display:none">
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

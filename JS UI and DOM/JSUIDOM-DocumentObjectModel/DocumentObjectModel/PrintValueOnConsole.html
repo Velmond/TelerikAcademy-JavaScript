@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 02 - Print Inputted Value (on the console)</title>
+    <link href="styles/DOM.css" rel="stylesheet" />
+    <script src="scripts/DOM.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="number">Input some text:</label>
+            <input type="text" id="textbox" placeholder="input text here" />
+        </div>
+        <button id="executeBtn" onclick="printInputValueOnConsole()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        02. Create a function that gets the value of &lt;input type="text"&gt; ands prints its value to the console.<br /><br />
+        Input some text and press 'Execute!'.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

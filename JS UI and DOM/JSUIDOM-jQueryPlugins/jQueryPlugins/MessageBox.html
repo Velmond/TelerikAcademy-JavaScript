@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 02 - Message Box</title>
+    <script src="libs/jquery-1.11.1.min.js"></script>
+    <script src="scripts/MessageBox.js"></script>
+    <style>
+        input {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="message" placeholder="Message to display" />
+    <button id="errorBtn">Error message</button>
+    <button id="successBtn">Success message</button>
+    <div id="message-box"></div>
+    <script>
+        var msgBox = $('#message-box').messageBox();
+
+        $('#errorBtn').click(function () {
+            var message = $('#message').val() || 'Default ERROR message';
+            msgBox.error(message);
+        });
+
+        $('#successBtn').click(function () {
+            var message = $('#message').val() || 'Default SUCCESS message';
+            msgBox.success(message);
+        });
+    </script>
+</body>
+</html>

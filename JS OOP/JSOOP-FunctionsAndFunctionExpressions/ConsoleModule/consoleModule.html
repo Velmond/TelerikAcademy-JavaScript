@@ -1,0 +1,63 @@
+<!-- 03. Create a module to work with the console object.
+         Implement functionality for:
+         - Writing a line to the console;
+         - Writing a line to the console using a format;
+         - Writing to the console should call toString() to each element;
+         - Writing errors and warnings to the console with and without format;
+
+         var specialConsole = ...
+         specialConsole.writeLine("Message: hello");
+         //logs to the console "Message: hello"
+         specialConsole.writeLine("Message: {0}", "hello");
+         //logs to the console "Message: hello"
+         specialConsole.writeError("Error: {0}", "Something happened");
+         specialConsole.writeWarning("Warning: {0}", "A warning");-->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Console Module</title>
+    <script src="scripts/consoleModule.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1>See the console for the output!</h1>
+    <script>
+        // Simple text with no placeholders
+        specialConsole.writeLine("Message: hello");
+        specialConsole.writeError("Error: Something happened");
+        specialConsole.writeWarning("Warning: A warning");
+
+        // Text with argument for formatting string
+        specialConsole.writeLine("Message: {0}", "hello");
+        specialConsole.writeError("Error: {0}", "Something happened");
+        specialConsole.writeWarning("Warning: {0}", "A warning");
+
+        // Text with a lot of arguments
+        specialConsole.writeLine("{0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10}",
+                "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten");
+        specialConsole.writeError("{0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10}",
+                "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten");
+        specialConsole.writeWarning("{0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10}",
+                "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten");
+
+        // Repeating arguments
+        specialConsole.writeLine("{0} {1} {0} {1} {0}", "Message", "hello");
+        specialConsole.writeError("{0} {1} {0} {1} {0}", "Message", "hello");
+        specialConsole.writeWarning("{0} {1} {0} {1} {0}", "Message", "hello");
+
+        // More arguments than placeholders
+        specialConsole.writeLine("{0} {1} {2} {3} {4} {5}",
+                "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten");
+        specialConsole.writeError("{0} {1} {2} {3} {4} {5}",
+                "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten");
+        specialConsole.writeWarning("{0} {1} {2} {3} {4} {5}",
+                "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten");
+
+        // More placeholders than arguments
+        specialConsole.writeLine("{0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10}", "zero", "one", "two", "three", "four", "five");
+        specialConsole.writeError("{0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10}", "zero", "one", "two", "three", "four", "five");
+        specialConsole.writeWarning("{0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10}", "zero", "one", "two", "three", "four", "five");
+    </script>
+</body>
+</html>

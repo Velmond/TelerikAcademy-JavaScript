@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 06</title>
+    <link href="styles/Strings.css" rel="stylesheet" />
+    <script src="scripts/CommonScripts.js"></script>
+    <script src="scripts/GetHtmlContentWithoutTags.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="text">Text with tags: </label>
+            <input type="text" id="text" placeholder="&lt;html&gt;&lt;head&gt;&lt;title&gt;Sample site&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;div&gt;text&lt;div&gt;more text&lt;/div&gt;and more...&lt;/div&gt;in body&lt;/body&gt;&lt;/html&gt;" />
+        </div>
+        <button id="executeBtn" onclick="testGettingTextWithoutTags()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        06. Write a function that extracts the content of a html page given as text. The function should return anything that is in a tag, without the tags:<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;html&gt;&lt;head&gt;&lt;title&gt;Sample site&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;div&gt;text&lt;div&gt;more text&lt;/div&gt;and more...&lt;/div&gt;in body&lt;/body&gt;&lt;/html&gt;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;result:<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;Sample sitetextmore textand more...in body<br /><br />
+        Press 'Execute!' to get the default text or input your own.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

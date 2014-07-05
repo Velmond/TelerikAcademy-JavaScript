@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 05 - Sort An Array Using Selection Sort Algoritm</title>
+    <link href="styles/Arrays.css" rel="stylesheet" />
+    <script src="scripts/Arrays.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="array">Array: </label>
+            <input type="text" id="array" placeholder="input as a string" />
+        </div>
+        <button id="executeBtn" onclick="sortWithSelectionSort()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        05. Sorting an array means to arrange its elements in increasing order. Write a script to sort an array. Use the "selection sort" algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, move it at the second position, etc. Hint: Use a second array<br /><br />
+		Enter the numbers as a string with the entries separated by commas<br />
+        (example: 79,-2,35,4,-22,8,42,23,42,1,11,8,62,0,-4,17,-35,2,-65,0,-83)<br />
+        Any NaNs will be removed before sorting<br />
+        (example: 79,-2,35,4,a,-22,dw,8,42,,23,42,w1,11,8,62,-0,&nbsp;,-4,17,-35,2r,-65,0,-83)<br />
+        The string will be split into an array when you press 'Execute!'
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

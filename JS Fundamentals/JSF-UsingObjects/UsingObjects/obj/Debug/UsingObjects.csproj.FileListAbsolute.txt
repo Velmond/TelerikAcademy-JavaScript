@@ -1,0 +1,5 @@
+c:\users\velmond\documents\visual studio 2013\Projects\JSF-UsingObjects\UsingObjects\bin\UsingObjects.dll
+c:\users\velmond\documents\visual studio 2013\Projects\JSF-UsingObjects\UsingObjects\bin\UsingObjects.pdb
+c:\users\velmond\documents\visual studio 2013\Projects\JSF-UsingObjects\UsingObjects\obj\Debug\UsingObjects.csprojResolveAssemblyReference.cache
+c:\users\velmond\documents\visual studio 2013\Projects\JSF-UsingObjects\UsingObjects\obj\Debug\UsingObjects.dll
+c:\users\velmond\documents\visual studio 2013\Projects\JSF-UsingObjects\UsingObjects\obj\Debug\UsingObjects.pdb

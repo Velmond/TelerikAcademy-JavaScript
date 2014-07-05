@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework 04</title>
+    <link href="styles/Strings.css" rel="stylesheet" />
+    <script src="scripts/CommonScripts.js"></script>
+    <script src="scripts/ChangeCaseAcordingToTags.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="text">Input text: </label>
+            <input type="text" id="text" placeholder="*optional input" />
+        </div>
+        <button id="executeBtn" onclick="applyUpLowAndMixCase()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        04. You are given a text. Write a function that changes the text in all regions:<br />
+        &nbsp;&nbsp;- &lt;upcase>text&lt;/upcase&gt; to uppercase.<br />
+        &nbsp;&nbsp;- &lt;lowcase>text&lt;/lowcase&gt; to lowercase<br />
+        &nbsp;&nbsp;- &lt;mixcase>text&lt;/mixcase&gt; to mix casing(random)<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;We are &lt;mixcase&gt;living&lt;/mixcase&gt; in a &lt;upcase&gt;yellow submarine&lt;/upcase&gt;. We &lt;mixcase&gt;don't&lt;/mixcase&gt; have &lt;lowcase&gt;anything&lt;/lowcase&gt; else.<br />
+        The expected result:<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;We are LiVinG in a YELLOW SUBMARINE. We dOn'T have anything else.<br />
+        Regions can be nested.<br /><br />
+        Press 'Execute!' to see the result string. Press it again to make sure that &lt;mixcase&gt; really is random.<br />
+        The input field is optional. There is a default value set (with nested tags).
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 08</title>
+    <link href="styles/Strings.css" rel="stylesheet" />
+    <script src="scripts/CommonScripts.js"></script>
+    <script src="scripts/ReplaceAnchorTags.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="text">Input text: </label>
+            <input type="text" id="text" placeholder="&lt;p&gt;Please visit &lt;a href='http://academy.telerik.com'>ou..." />
+        </div>
+        <button id="executeBtn" onclick="testReplaceAnchorTags()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        08. Write a JavaScript function that replaces in a HTML document given as string all the tags &lt;a href="...">...&lt;/a&gt; with corresponding tags [URL=...].../URL].<br />
+        Sample HTML fragment:<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Please visit &lt;a href="http://academy.telerik. com">our site&lt;/a&gt; to choose a training course. Also visit &lt;a href="www.devbg.org">our forum&lt;/a&gt; to discuss the courses.&lt;/p&gt;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Please visit [URL=http://academy.telerik. com]our site[/URL] to choose a training course. Also visit [URL=www.devbg.org]our forum[/URL] to discuss the courses.&lt;/p&gt;<br /><br />
+        Press 'Execute!' to get the default text or input your own.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

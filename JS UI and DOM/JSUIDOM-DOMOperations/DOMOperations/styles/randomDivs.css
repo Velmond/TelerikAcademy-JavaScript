@@ -1,0 +1,19 @@
+﻿body, div {
+    margin: 0;
+    padding: 0;
+}
+
+#inputContainer {
+    display: inline-block;
+    padding: 5px 15px;
+    background: white;
+    border: 1px solid black;
+}
+
+input {
+    width: 50px;
+}
+
+div {
+    z-index: -1;
+}

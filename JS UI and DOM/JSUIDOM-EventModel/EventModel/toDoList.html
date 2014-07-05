@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework - To Do List</title>
+    <style>
+        p {
+            padding: 5px 0;
+            margin: 0;
+        }
+
+        #title, #tasks, form {
+            width: 400px;
+            margin: 0;
+        }
+
+        #title, form  {
+            padding: 5px 0;
+            text-align: center;
+        }
+
+        button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type='text' id='newItem' placeholder="task description" />
+        <button type='button' id='add'>Add</button>
+        <button type='button' id='show'>Show</button>
+        <button type='button' id='hide'>Hide</button>
+    </form>
+    <section>
+        <h1 id="title">To do list</h1>
+        <section id="tasks"></section>
+    </section>
+
+    <script src="toDoList.js"></script>
+</body>
+</html>

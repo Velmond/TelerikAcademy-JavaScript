@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgray;
+}
+
+thead > tr {
+    color: white;
+    background-color: gray;
+}
+
+tr > td:not(:nth-child(2)) {
+    text-align: center;
+}

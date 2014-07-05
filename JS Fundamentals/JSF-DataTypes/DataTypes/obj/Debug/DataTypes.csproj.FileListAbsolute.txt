@@ -1,0 +1,5 @@
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-DataTypes\DataTypes\bin\DataTypes.dll
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-DataTypes\DataTypes\bin\DataTypes.pdb
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-DataTypes\DataTypes\obj\Debug\DataTypes.dll
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-DataTypes\DataTypes\obj\Debug\DataTypes.pdb
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-DataTypes\DataTypes\obj\Debug\DataTypes.csprojResolveAssemblyReference.cache

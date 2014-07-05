@@ -1,0 +1,5 @@
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Strings\Strings\bin\Strings.dll
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Strings\Strings\bin\Strings.pdb
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Strings\Strings\obj\Debug\Strings.csprojResolveAssemblyReference.cache
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Strings\Strings\obj\Debug\Strings.dll
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Strings\Strings\obj\Debug\Strings.pdb

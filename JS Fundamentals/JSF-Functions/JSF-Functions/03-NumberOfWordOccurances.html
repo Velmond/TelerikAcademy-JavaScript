@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 03 - Find The Number Of Occurances Of A Word</title>
+    <link href="styles/Functions.css" rel="stylesheet" />
+    <script src="scripts/Functions.js" type="text/javascript"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="text">Text: </label>
+            <input type="text" id="text" placeholder="Input text here" value="A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath" />
+        </div>
+        <div class="input">
+            <label for="word">Word: </label>
+            <input type="text" id="word" placeholder="Input word here" value="a" />
+        </div>
+        Do case-sensitive search.
+        <input type="radio" id="csON" name="caseSensitive" value="1" checked="checked" />
+        <label for="csON">ON</label>
+        <input type="radio" id="csOFF" name="caseSensitive" value="0" />
+        <label for="csOFF">OFF</label>
+        <button onclick="findWordCountInText()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        03. Write a function that finds all the occurrences of word in a text<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;- The search can be case sensitive or case insensitive<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;- Use function overloading<br /><br />
+		Input some text and a word to seatch for of use the default inputted ones and press 'Execute!'.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('inputContainer').style.height = '93px';
+    </script>
+</body>
+</html>

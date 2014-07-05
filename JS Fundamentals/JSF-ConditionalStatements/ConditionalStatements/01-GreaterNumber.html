@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework01 - Greater Number</title>
+    <script src="scripts/commonScript.js"></script>
+    <script src="scripts/01-GreaterNumber.js"></script>
+    <link href="styles/commonStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="firstValue">First number: </label>
+            <input type="text" id="firstValue" placeholder="0" />
+        </div>
+        <div class="input">
+            <label for="secondValue">Second number: </label>
+            <input type="text" id="secondValue" placeholder="0" />
+        </div>
+        <button onclick="getGreaterValue()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        Input two values.<br />
+        If the first is greater than the second their values will be switched.<br />
+        If the second is greater they will keep their assigned values.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('inputContainer').style.height = '62px';
+    </script>
+</body>
+</html>

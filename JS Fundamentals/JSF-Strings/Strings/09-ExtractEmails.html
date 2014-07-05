@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 09</title>
+    <link href="styles/Strings.css" rel="stylesheet" />
+    <script src="scripts/CommonScripts.js"></script>
+    <script src="scripts/ExtractEmails.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="text">Text: </label>
+            <input type="text" id="text" placeholder="Some text pesho.peshov@gmail.com. More text..." />
+        </div>
+        <button id="executeBtn" onclick="testExtractingEmails()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        09. Write a function for extracting all email addresses from given text. All substrings that match the format &lt;identifier&gt;@&lt;host&gt;...&lt;domain&gt; should be recognized as emails. Return the emails as array of strings.<br /><br />
+        Press 'Execute!' to extract the emails from the default text or input your own.<br /><br />
+        <span class="highlight"> The solution is very basic but I tried doing the tasks with as little regular expressions as possible since they most likely won't be alowed on the exam... I did the best I could without going overboard in details so don't expect any wonders :)</span>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

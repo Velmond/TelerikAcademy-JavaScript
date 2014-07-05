@@ -1,0 +1,82 @@
+<!-- 01. Create a module for working with DOM.
+         The module should have the following functionality
+         - Add DOM element to parent element given by selector;
+         - Remove element from the DOM by given selector;
+         - Attach event to given selector by given event type and event handler;
+         - Add elements to buffer, which appends them to the DOM when their count for some selector becomes 100;
+         - The buffer contains elements for each selector it gets;
+         - Get elements by CSS selector;
+         - The module should reveal only the methods;
+
+         var domModule = ...
+         var div = document.createElement("div");
+         //appends div to #wrapper
+         domModule.appendChild(div, "#wrapper");
+         //removes li:first-child from ul
+         domModule.removeChild("ul", "li:first-child");
+         //add handler to each a element with class button
+         domModule.addHandler("a.button", 'click', function(){ alert("Clicked") });
+         domModule.appendToBuffer("container", div.cloneNode(true));
+         domModule.appendToBuffer("#main-nav ul", navItem); -->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>DOM Module</title>
+    <script src="scripts/DOMManipulatingModule.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./styles/DOMManipulatingModule.css" type="text/css" />
+</head>
+<body>
+    <h1>Mouse over any of the rectangles to see if adding events works.</h1>
+    <div id="main">
+        <div class="toRemove">
+            <p>This text is in a div that should be removed if you click the button on the right.</p>
+            <button id="removeBtn">Delete</button>
+        </div>
+    </div>
+
+    <script>
+        // ======================================================================= Remove child
+        var removeBtn = document.getElementById('removeBtn');
+
+        if (removeBtn.addEventListener){
+            removeBtn.addEventListener('click', onDeleteBtnClick);
+        } else {
+            removeBtn.attachEvent('onclick', onDeleteBtnClick);
+        }
+
+        function onDeleteBtnClick() {
+            domModule.removeChild('#main', '.toRemove');
+        }
+
+        // ======================================================================= Append child
+        var childDivToAppend = document.createElement('div');
+
+        childDivToAppend.classList.add('childDiv');
+        domModule.appendChild(childDivToAppend, '#main');
+
+        // ======================================================================= Append to buffer
+        for (var i = 0; i <= 150; i += 1) {
+            domModule.appendToBuffer('#main', childDivToAppend.cloneNode(true));
+        }
+        // There are only 101 divs on the screen (one from the Append child test and 100 from the buffer).
+        // There are also 50 elements in the buffer for the '#main' element.
+
+        // ======================================================================= Add event handler test
+        domModule.addHandler('.childDiv', 'mouseover', function () {
+            this.style.background = getRandomColor();
+            this.style.borderColor = getRandomColor();
+        });
+
+        //  ======================================================================= Common functions
+        function getRandomColor() {
+            var red = (Math.random() * 255) | 0,
+                green = (Math.random() * 255) | 0,
+                blue = (Math.random() * 255) | 0;
+
+            return 'rgb(' + red + ', ' + green + ', ' + blue + ')';
+        }
+    </script>
+</body>
+</html>

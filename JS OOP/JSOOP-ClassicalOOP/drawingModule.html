@@ -1,0 +1,50 @@
+<!-- 01. Create a module for drawing shapes using Canvas.
+         Implement the following shapes:
+         - Rect, by given position (X, Y) and size (Width, Height);
+         - Circle, by given center position (X, Y) and radius (R);
+         - Line, by given from (X1, Y1) and to (X2, Y2) positions; -->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Drawing Module</title>
+    <style>
+        h1 {
+            font-family: Arial, sans-serif;
+            font-size: 1.4em;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>The first column has all the elements with line width, stroke color and fill color defined.</h1>
+        <h1>The second column has all the elements with line width and color but no fill color defined. Just width for the line.</h1>
+        <h1>The third column has all the elements with colors but no stroke width defined. No line here.</h1>
+        <h1>The forth column has all the elements with stroke color and nothing more defined.</h1>
+        <h1>The last column has all the elements with nothing defined other than the required properties for drawing them.</h1>
+        <canvas id="canvas" width="1100" height="400"></canvas>
+    </div>
+    <script src="scripts/drawingModule.js"></script>
+    <script>
+        var drawModule = new DrawModule('#canvas');
+
+        drawModule.rectangle(50, 100, 100, 50, 10, 'darkred', 'red');
+        drawModule.rectangle(50, 300, 100, 50, 10, 'darkred');
+        drawModule.rectangle(50, 500, 100, 50, 'darkgreen', 'red');
+        drawModule.rectangle(50, 700, 100, 50, 'darkred');
+        drawModule.rectangle(50, 900, 100, 50);
+
+        drawModule.circle(225, 150, 50, 10, 'darkgreen', 'green');
+        drawModule.circle(225, 350, 50, 10, 'darkgreen');
+        drawModule.circle(225, 550, 50, 'darkred', 'green');
+        drawModule.circle(225, 750, 50, 'darkgreen');
+        drawModule.circle(225, 950, 50);
+
+        drawModule.line(100, 350, 200, 350, 10, 'blue');
+        drawModule.line(300, 350, 400, 350, 10);
+        drawModule.line(700, 350, 800, 350, 'blue');
+        drawModule.line(900, 350, 1000, 350);
+    </script>
+</body>
+</html>

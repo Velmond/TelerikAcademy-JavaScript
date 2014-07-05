@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 02</title>
+    <link href="styles/Strings.css" rel="stylesheet" />
+    <script src="scripts/CommonScripts.js"></script>
+    <script src="scripts/IsExpressionCorrect.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="expression">Input expression: </label>
+            <input type="text" id="expression" placeholder=")(a+b))" />
+        </div>
+        <button id="executeBtn" onclick="testIsExpressionCorrect()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        02. Write a JavaScript function to check if in a given expression the brackets are put correctly.<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;Example of correct expression: ((a+b)/5-d).<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;Example of incorrect expression: )(a+b)).<br /><br />
+        Press 'Execute!' to check the default ')(a+b))' or input your own expression.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

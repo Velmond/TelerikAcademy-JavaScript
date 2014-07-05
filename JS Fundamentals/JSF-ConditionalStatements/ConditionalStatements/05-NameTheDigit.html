@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework05 - Name The Digit Using Switch</title>
+    <script src="scripts/commonScript.js"></script>
+    <script src="scripts/05-NameTheDigit.js"></script>
+    <link href="styles/commonStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="inputValue">Input number: </label>
+            <input type="text" id="inputValue" placeholder="0" />
+        </div>
+        <button id="executeBtn" onclick="nameTheDigit()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        Input a single positive digit (0-9) to get its name in English.<br />
+        If you put in a number above 9 or a floating-point number<br />
+        you will get only the name of the last digit before the point.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 04 - Find Smallest And Largest Property Lexicographically</title>
+    <link href="styles/Loops.css" rel="stylesheet" />
+    <script src="scripts/Loops.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <!--<div class="input">
+            <label for="object">Input property: </label>
+            <input type="text" id="object" placeholder="document" disabled="disabled"/>
+        </div>-->
+        <button id="executeBtn" onclick="lexiCompProps()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        04. Write a script that finds the lexicographically smallest and largest property in document, window and navigator objects.<br /><br />
+		Click on execute to find out the smallest and largest properties of document,<br />
+        window and navigator lexicographically.<br />
+        PS. I tried using DOMParser to do it with user input instead of hardcoded values but<br />
+        it didn't work the way I planned so I went with hardcoding the values.<br />
+        The idea is exercising loops anyway.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

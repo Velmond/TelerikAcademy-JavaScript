@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework03 - Biggest Of Three Integers</title>
+    <link href="styles/commonStyle.css" rel="stylesheet" />
+    <script src="scripts/commonScript.js"></script>
+    <script src="scripts/03-BiggestOfThreeIntegers.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="firstValue">First number: </label>
+            <input type="text" id="firstValue" placeholder="0" />
+        </div>
+        <div class="input">
+            <label for="secondValue">Second number: </label>
+            <input type="text" id="secondValue" placeholder="0" />
+        </div>
+        <div class="input">
+            <label for="thirdValue">Third number: </label>
+            <input type="text" id="thirdValue" placeholder="0" />
+        </div>
+        <button onclick="getTheBiggestNumber()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        Input three values to get the biggest one of them.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('inputContainer').style.height = '93px';
+    </script>
+</body>
+</html>

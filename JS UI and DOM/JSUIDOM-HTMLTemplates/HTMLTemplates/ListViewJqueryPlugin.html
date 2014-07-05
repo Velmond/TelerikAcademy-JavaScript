@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- 03. *Create a jQuery plugin for ListView
+           - Apply a template for each item of a collection
+           - Using the data-template attribute set the ID of the template to use for the items
+           - Must work with different collections and templates
+           - *More examples on the next slides
+             <ul id="books-list" data-template="book-item-template"></ul>
+             <script id="book-item-template" type="…">
+                 <li class="book-item">
+                     <a href="/#books/{{id}}">
+                         <strong>{{title}}</strong>
+                     </a>
+                 </li>
+             </script>                          $('#books-list').listview(books);
+             Expected result on /imgs/ListView1.png
+
+             <table>
+                 <thead>
+                     <tr><th>#</th><th>Name</th><th>Mark</th></tr>
+                 </thead>
+                 <tbody id="students-table" data-template="students-row-template">
+                 </tbody>
+             </table>
+             <script id="students-row-template" type="…">
+                 <tr class="student-row">
+                     <td>{{number}}</td>
+                     <td>{{name}}</td>
+                     <td>{{mark}}</td>
+                 </tr>
+             </script>                          $('#students-table').listview(students);
+             Expected result on /imgs/ListView2.png -->
+    <title>Homework 03 - List View Plugin For jQuery</title>
+    <script src="libs/handlebars-v1.3.0.js"></script>
+    <script src="libs/jquery-1.11.1.min.js"></script>
+    <script src="scripts/ListView.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <ul id="books-list" data-template="book-item-template"></ul>
+
+    <script id="book-item-template" type="text/x-handlebars-template">
+        {{#each books}}
+        <li class="book-item">
+            <a href="/#books/{{id}}">
+                <strong>{{title}}</strong>
+            </a>
+        </li>
+        {{/each}}
+    </script>
+
+    <script>
+        var books = [{
+            id: 928472, title: 'JavaScript: The Good parts'
+        }, {
+            id: 713982, title: 'Secrets of the JavaScript Ninja'
+        }, {
+            id: 928352, title: 'Core HTML5 Canvas'
+        }, {
+            id: 741839, title: 'JavaScript Patterns'
+        }];
+
+        $('#books-list').listview({ books: books });
+    </script>
+
+    <div id="students-table-wrapper">
+        <table id="students-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Mark</th>
+                </tr>
+            </thead>
+            <tbody id="students-table-body" data-template="students-row-template"></tbody>
+        </table>
+    </div>
+
+    <script id="students-row-template" type="text/x-handlebars-template">
+        {{#each students}}
+        <tr class="student-row">
+            <td>{{number}}</td>
+            <td>{{name}}</td>
+            <td>{{mark}}</td>
+        </tr>
+        {{/each}}
+    </script>
+
+    <script>
+        var students = [{
+            number: 1, name: 'Petar Petrov', mark: 5.5
+        }, {
+            number: 2, name: 'Stamat Georgiev', mark: 4.7
+        }, {
+            number: 3, name: 'Maria Todorova', mark: 6
+        }, {
+            number: 4, name: 'Georgi Geshov', mark: 3.7
+        }];
+
+        $('#students-table-body').listview({ students: students });
+    </script>
+</body>
+</html>

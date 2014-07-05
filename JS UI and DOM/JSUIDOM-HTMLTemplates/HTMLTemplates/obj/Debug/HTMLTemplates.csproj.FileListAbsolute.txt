@@ -1,0 +1,5 @@
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-HTMLTemplates\HTMLTemplates\bin\HTMLTemplates.dll
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-HTMLTemplates\HTMLTemplates\bin\HTMLTemplates.pdb
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-HTMLTemplates\HTMLTemplates\obj\Debug\HTMLTemplates.csprojResolveAssemblyReference.cache
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-HTMLTemplates\HTMLTemplates\obj\Debug\HTMLTemplates.dll
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-HTMLTemplates\HTMLTemplates\obj\Debug\HTMLTemplates.pdb

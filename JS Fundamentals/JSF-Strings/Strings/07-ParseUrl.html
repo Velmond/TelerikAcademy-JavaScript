@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 07</title>
+    <link href="styles/Strings.css" rel="stylesheet" />
+    <script src="scripts/CommonScripts.js"></script>
+    <script src="scripts/ParseUrl.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="url">Input number: </label>
+            <input type="text" id="url" placeholder="http://www.devbg.org//forum/index.php" />
+        </div>
+        <button id="executeBtn" onclick="testParseUrl()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        07. Write a script that parses an URL address given in the format:<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;[protocol]://[server]/[resource]<br />
+        and extracts from it the [protocol], [server] and [resource] elements. Return the elements in a JSON object.<br />
+        For example from the URL http://www.devbg.org/forum/index.php the following information should be extracted:<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;{protocol: "http",<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;server: "www.devbg.org",<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;resource: "/forum/index.php"}<br /><br />
+        Press 'Execute!' to get the default url parsed or input your own.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

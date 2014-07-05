@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- 02. Create a dynamic select using Handlebars.js
+           - The options in the select should be generated based on a collection of JavaScript objects
+           - Example:
+             var items = [{
+                 value: 1,
+                 text: 'One'
+             }, {
+                 value: 2,
+                 text: 'Two'
+             }];
+             var selectHTML = selectTemplate(items);
+
+             See the expecter result on /imgs/Select.png -->
+    <title>Homework 02 - Dynamic Select</title>
+    <script src="libs/handlebars-v1.3.0.js"></script>
+</head>
+<body>
+    <div id="selects-place"></div>
+    <script type="text/x-handlebars-template" id="select-template">
+        <select>
+            {{#items}}
+            <option value="{{value}}">{{text}}</option>
+            {{/items}}
+        </select>
+    </script>
+    <script>
+        var items = [{
+                value: 1,
+                text: 'One'
+            }, {
+                value: 2,
+                text: 'Two'
+            }, {
+                value: 3,
+                text: 'Three'
+            }, {
+                value: 4,
+                text: 'Four'
+            }, {
+                value: 5,
+                text: 'Five'
+            }],
+            selectTemplate = document.getElementById('select-template').innerHTML,
+            selectOptionsHtml = Handlebars.compile(selectTemplate);
+
+        document.getElementById('selects-place').innerHTML = selectOptionsHtml({ items: items });
+    </script>
+</body>
+</html>

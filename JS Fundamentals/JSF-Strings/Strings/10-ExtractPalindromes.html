@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 10</title>
+    <link href="styles/Strings.css" rel="stylesheet" />
+    <script src="scripts/CommonScripts.js"></script>
+    <script src="scripts/ExtractPalindromes.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="text">Input text: </label>
+            <input type="text" id="text" placeholder="Some text ABBA! More text lamal, also exe? And don't forget racecar." />
+        </div>
+        <button id="executeBtn" onclick="testExtractPalindromes()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        10. Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".<br /><br />
+        Press 'Execute!' to extract the palindromes from the default text or input your own.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

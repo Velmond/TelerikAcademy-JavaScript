@@ -1,0 +1,72 @@
+﻿body {
+    font-family: 'Courier New', Arial, sans-serif;
+}
+
+#inputContainer {
+    width: 920px;
+    padding: 20px;
+    background: black;
+    color: white;
+    position: relative;
+}
+
+    #inputContainer > .input {
+    }
+
+        #inputContainer > .input > input[type="text"] {
+            border: none;
+            font-size: .9em;
+            border-radius: 0;
+            padding: 5px 10px;
+            background: #888888;
+            color: white;
+            font-family: 'Courier New', Arial, sans-serif;
+        }
+
+            #inputContainer > .input > input[type="text"]::-webkit-input-placeholder {
+                color: #666666;
+            }
+
+            #inputContainer > .input > input[type="text"]:focus {
+                outline: 0;
+            }
+
+        #inputContainer > .input > label {
+            font-size: 1.0em;
+            display: inline-block;
+            width: 175px;
+        }
+
+    #inputContainer > button {
+        float: right;
+        height: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border: none;
+        border-radius: 0;
+        background: #888888;
+        color: white;
+        font-family: 'Courier New', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 1.0em;
+    }
+
+        #inputContainer > button:hover {
+            background: #bbbbbb;
+        }
+
+        #inputContainer > button:focus {
+            outline: 0;
+        }
+
+#resultContainer {
+    width: 920px;
+    height: 360px;
+    padding: 20px;
+    background: #888888;
+    color: white;
+    overflow-y: auto;
+}

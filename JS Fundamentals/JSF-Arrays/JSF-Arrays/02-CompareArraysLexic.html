@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 02 - Compare Two Arrays Lexicographicaly</title>
+    <link href="styles/Arrays.css" rel="stylesheet" />
+    <script src="scripts/Arrays.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="firstArr">First array: </label>
+            <input type="text" id="firstArr" placeholder="input as a word" />
+        </div>
+        <div class="input">
+            <label for="secondArr">Second array: </label>
+            <input type="text" id="secondArr" placeholder="input as a word" />
+        </div>
+        <button id="executeBtn" onclick="lexCompareArrays()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        02. Write a script that compares two char arrays lexicographically (letter by letter).<br /><br />
+		Enter the char arrays as words (example - First array: qwerty, Second array: qwErty).<br />
+        They will be split into arrays when you press 'Execute!'
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('inputContainer').style.height = '62px';
+    </script>
+</body>
+</html>

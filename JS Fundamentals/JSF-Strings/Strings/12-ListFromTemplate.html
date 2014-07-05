@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 12</title>
+    <link href="styles/Strings.css" rel="stylesheet" />
+    <script src="scripts/CommonScripts.js"></script>
+    <script src="scripts/ListFromTemplate.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="template">Template: </label>
+            <input type="text" id="template" placeholder="&lt;strong&gt;-{name}-&lt;/strong&gt; &lt;span&gt;-{age}-&lt;/span&gt;" />
+        </div>
+        <button id="executeBtn" onclick="testListTemplating()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        12. Write a function that creates a HTML UL using a template for every HTML LI. The source of the list should an array of elements. Replace all placeholders marked with -{...}- with the value of the corresponding property of the object.<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;Example:<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;div data-type="template" id="list-item"&gt;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;strong&gt;-{name}-&lt;/strong&gt; &lt;span&gt;-{age}-&lt;/span&gt;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;var people = [{name: "Peter", age: 14},...];<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;var tmpl = document.getElementById("list-item").innerHtml;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;var peopleList = generateList(people,template);<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;//peopleList = "&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Peter&lt;/strong&gt; &lt;span&gt;14&lt;/span&gt;&lt;/li&gt;&lt;li&gt;...&lt;/li&gt;&lt;/ul&gt;"<br /><br />
+        <strong>
+            Press 'Execute!' to get the result for the default template or enter your own.<br />
+            <span class="highlight">Properties you can use for a template are firstName, lastName, fullName and age.</span><br />
+        </strong>
+        You can try one of these:<br />
+        &lt;strong&gt;-{firstName}-&lt;/strong&gt; &lt;em&gt;-{age}-&lt;/em&gt; &lt;u&gt;-{lastName}-&lt;/u&gt;<br />
+        &lt;u&gt;-{firstName}- -{lastName}-&lt;/u&gt; &lt;em&gt;-{age}-&lt;/em&gt;<br />
+        &lt;em&gt;-{firstName}-&lt;/em&gt; &lt;strong&gt;-{lastName}-&lt;/strong&gt; &lt;strong&gt;-{age}-&lt;/strong&gt;<br />
+        &lt;p&gt;-{fullName}-&lt;/p&gt; &lt;strong&gt;-{age}-&lt;/strong&gt;
+
+        <div data-type="template" id="list-item" class="list-template">
+            <strong>-{fullName}-</strong> <span>-{age}-</span>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿body, h1, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px;
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    color: #8e8e8e;
+}
+
+.log {
+    color: black;
+}
+
+h1 {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    background: black;
+    color: white;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

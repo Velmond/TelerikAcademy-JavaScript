@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework 04 - Does An Object Have Some Property</title>
+    <link href="styles/UsingObjects.css" rel="stylesheet" />
+    <script src="scripts/UsingObjects.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="property">Prop to look for: </label>
+            <input type="text" id="property" placeholder="input here" />
+        </div>
+        <button id="executeBtn" onclick="testHasProperty()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        04. Write a function that checks if a given object contains a given property<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;var obj = ...;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;var hasProp = hasProperty(obj, 'length');<br /><br />
+        The object is "hardcoded" and represents a "person" who should have the following properties: <br />
+        firstName, middleName, lastName, age and homeTown. What property do you want to check if it has?
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

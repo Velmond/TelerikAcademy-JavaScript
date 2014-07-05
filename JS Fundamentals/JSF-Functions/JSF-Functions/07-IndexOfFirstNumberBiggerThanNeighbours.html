@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 07 - Find The Index Of The First Number Bigger Than Its Neighbours</title>
+    <link href="styles/Functions.css" rel="stylesheet" />
+    <script src="scripts/Functions.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="array">Array: </label>
+            <input type="text" id="array" placeholder="input as a string" />
+        </div>
+        <button id="executeBtn" onclick="getIndexOfFirstElementBiggerThanNeighbours()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+		07. Write a function that returns the index of the first element in array that is bigger than its neighbors, or -1, if there’s no such element.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;- Use the function from the previous exercise.<br /><br />
+        Enter the arrays as a single string (example: 1,0,2,3,7,5,6,4,6,2,5,3,7).<br />
+        Any NaNs will be removed before executing (example: 1,0,2,&nbsp;,3,7,5,2w,,6,4d,4,6,r3,2,5,3,7).<br />
+        The string will be split into an array when you press 'Execute!'
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>

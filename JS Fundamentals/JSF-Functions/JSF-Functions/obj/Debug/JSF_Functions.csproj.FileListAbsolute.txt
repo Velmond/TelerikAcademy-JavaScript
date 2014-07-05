@@ -1,0 +1,5 @@
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Functions\JSF-Functions\bin\JSF_Functions.dll
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Functions\JSF-Functions\bin\JSF_Functions.pdb
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Functions\JSF-Functions\obj\Debug\JSF_Functions.csprojResolveAssemblyReference.cache
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Functions\JSF-Functions\obj\Debug\JSF_Functions.dll
+D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Functions\JSF-Functions\obj\Debug\JSF_Functions.pdb

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 01 - Get Nested Divs</title>
+    <link href="styles/DOM.css" rel="stylesheet" />
+    <script src="scripts/DOM.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <button id="firstBtn" onclick="findDivsWithInnerDivsWithQuerySelectorAll()">Execute with querySelectorAll()!</button>
+        <button id="secondBtn" onclick="findDivsWithInnerDivsWithGetElementsByTagName()">Execute whit getElementById()!</button>
+    </section>
+    <section id="resultContainer">
+        01. Write a script that selects all the div nodes that are directly inside other div elements<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;- Create a function using querySelectorAll()<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;- Create a function using getElementsByTagName()<br /><br />
+        Choose a method and click on the corresponding button.
+    </section>
+    <section class="hidden">
+        <div>
+            Not nested.
+            <div>
+                Nested in non-nested div.
+                <div>
+                    Nested in nested in non-nested div.
+                </div>
+            </div>
+            <div>
+                Nested in non-nested div.
+            </div>
+        </div>
+        <div>
+            Not nested.
+            <div>
+                Nested in non-nested div.
+                <div>
+                    Nested in nested in non-nested div.
+                    <div>
+                        Nested in nested in nested in non-nested div.
+                    </div>
+                </div>
+            </div>
+            <div>
+                Nested in non-nested div.
+                <div>
+                    Nested in nested in non-nested div.
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('inputContainer').style.height = '31px';
+        var firstBtn = document.getElementById('firstBtn'),
+            secondBtn = document.getElementById('secondBtn');
+        firstBtn.style.top = '5px';
+        firstBtn.style.left = '20px';
+        firstBtn.style.width = '450px';
+        secondBtn.style.top = '5px';
+        secondBtn.style.width = '450px';
+    </script>
+</body>
+</html>

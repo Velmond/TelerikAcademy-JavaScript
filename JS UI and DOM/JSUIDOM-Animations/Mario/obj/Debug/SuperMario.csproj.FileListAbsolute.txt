@@ -1,0 +1,5 @@
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-Animations\Mario\bin\Mario.dll
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-Animations\Mario\bin\Mario.pdb
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-Animations\Mario\obj\Debug\Mario.dll
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-Animations\Mario\obj\Debug\Mario.pdb
+D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-Animations\Mario\obj\Debug\SuperMario.csprojResolveAssemblyReference.cache

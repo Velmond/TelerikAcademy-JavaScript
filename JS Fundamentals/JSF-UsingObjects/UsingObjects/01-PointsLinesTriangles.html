@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 01 - Check If Three Lines Can Form A Triangle</title>
+    <link href="styles/UsingObjects.css" rel="stylesheet" />
+    <script src="scripts/UsingObjects.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="start">Starting point: </label>
+            <input type="text" id="start" placeholder="X,Y" />
+        </div>
+        <div class="input">
+            <label for="end">Ending point: </label>
+            <input type="text" id="end" placeholder="X,Y" />
+        </div>
+        <button id="executeBtn" onclick="testPointsAndLines()">Add and<br />Execute!</button>
+    </section>
+    <section id="resultContainer">
+        01. Write functions for working with shapes in standard Planar coordinate system<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;- Points are represented by coordinates P(X, Y)<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;- Lines are represented by two points, marking their beginning and ending<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;L(P1(X1,Y1), P2(X2,Y2))<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;- Calculate the distance between two points<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;- Check if three segment lines can form a triangle<br /><br />
+		Add coordinates for the starting and ending point of a line and click 'Add and Execute!'.<br />
+        You will get the distance between those two points and once you've entered more than 3 lines the page will check if the last three can form a triangle.<br />
+        If you want to start with a new empty set of lines refresh the page.
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('inputContainer').style.height = '62px';
+    </script>
+</body>
+</html>

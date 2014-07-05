@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework 03 - Find The Maximal Sequence Of Equal Elements</title>
+    <link href="styles/Arrays.css" rel="stylesheet" />
+    <script src="scripts/Arrays.js"></script>
+</head>
+<body>
+    <section id="inputContainer">
+        <div class="input">
+            <label for="array">Array: </label>
+            <input type="text" id="array" placeholder="input as a string" />
+        </div>
+        <button id="executeBtn" onclick="maxSequenceOfEqualElements()">Execute!</button>
+    </section>
+    <section id="resultContainer">
+        03. Write a script that finds the maximal sequence of equal elements in an array.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;Example: {2, 1, 1, 2, 3, 3, 2, 2, 2, 1} => {2, 2, 2}.<br /><br />
+		Enter the arrays as a single string (example: 1,1,2,3,7,7,7,7,4,6,2,5,5,5,3).<br />
+        Any NaNs will be removed before executing (example: 1,1,&nbsp;,3,2w,,7,4d,7,4,6,r3,2,5,5,3).<br />
+        The string will be split into an array when you press 'Execute!'
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('executeBtn').style.top = '5px';
+        document.getElementById('inputContainer').style.height = '31px';
+    </script>
+</body>
+</html>
