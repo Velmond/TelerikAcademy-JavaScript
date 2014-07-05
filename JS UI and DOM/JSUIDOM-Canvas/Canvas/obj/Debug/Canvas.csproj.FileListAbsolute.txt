@@ -1,5 +1,0 @@
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-Canvas\Canvas\bin\Canvas.dll
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-Canvas\Canvas\bin\Canvas.pdb
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-Canvas\Canvas\obj\Debug\Canvas.csprojResolveAssemblyReference.cache
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-Canvas\Canvas\obj\Debug\Canvas.dll
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-Canvas\Canvas\obj\Debug\Canvas.pdb

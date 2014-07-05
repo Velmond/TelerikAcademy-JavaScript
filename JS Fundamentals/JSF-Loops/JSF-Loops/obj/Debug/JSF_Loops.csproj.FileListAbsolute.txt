@@ -1,5 +1,0 @@
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Loops\JSF-Loops\bin\JSF_Loops.dll
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Loops\JSF-Loops\bin\JSF_Loops.pdb
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Loops\JSF-Loops\obj\Debug\JSF_Loops.csprojResolveAssemblyReference.cache
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Loops\JSF-Loops\obj\Debug\JSF_Loops.dll
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Loops\JSF-Loops\obj\Debug\JSF_Loops.pdb

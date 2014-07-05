@@ -1,5 +1,0 @@
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-ExamPrep\ExamPrep\bin\ExamPrep.dll
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-ExamPrep\ExamPrep\bin\ExamPrep.pdb
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-ExamPrep\ExamPrep\obj\Debug\ExamPrep.csprojResolveAssemblyReference.cache
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-ExamPrep\ExamPrep\obj\Debug\ExamPrep.dll
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-ExamPrep\ExamPrep\obj\Debug\ExamPrep.pdb

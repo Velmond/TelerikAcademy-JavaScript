@@ -13,22 +13,24 @@ var objectMaker = (function () {
             this._y = y;
         };
 
-        function generateSnakeBody(x, y, length) {
+        function generateSnakeBody(x, y, direction, length) {
             var snakeBody = [],
                 i;
 
             for (i = 0; i < length; i += 1) {
-                snakeBody[i] = new SnakeBodySegment(x--, y);
+                x -= direction.x;
+                y -= direction.y;
+                snakeBody[i] = new SnakeBodySegment(x, y);
             }
 
             return snakeBody;
         }
 
         var Snake = function (x, y, length) {
-            this._head = new SnakeBodySegment(x, y);
-            this._body = generateSnakeBody(x - 1, y, length - 1);
             this.isAlive = true;
             this.direction = DIRECTION.RIGHT;
+            this._head = new SnakeBodySegment(x, y);
+            this._body = generateSnakeBody(x, y, this.direction, length - 1);
         };
 
         Snake.prototype.move = function () {

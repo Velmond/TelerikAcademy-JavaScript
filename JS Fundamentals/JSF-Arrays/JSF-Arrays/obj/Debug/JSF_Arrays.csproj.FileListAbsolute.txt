@@ -1,5 +1,0 @@
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Arrays\JSF-Arrays\bin\JSF_Arrays.dll
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Arrays\JSF-Arrays\bin\JSF_Arrays.pdb
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Arrays\JSF-Arrays\obj\Debug\JSF_Arrays.csprojResolveAssemblyReference.cache
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Arrays\JSF-Arrays\obj\Debug\JSF_Arrays.dll
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-Arrays\JSF-Arrays\obj\Debug\JSF_Arrays.pdb

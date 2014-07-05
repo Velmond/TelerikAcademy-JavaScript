@@ -1,5 +1,0 @@
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-OperatorsExpressions\OperatorsExpressions\bin\OperatorsExpressions.dll
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-OperatorsExpressions\OperatorsExpressions\bin\OperatorsExpressions.pdb
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-OperatorsExpressions\OperatorsExpressions\obj\Debug\OperatorsExpressions.csprojResolveAssemblyReference.cache
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-OperatorsExpressions\OperatorsExpressions\obj\Debug\OperatorsExpressions.dll
-D:\Velmond\School\Telerik\07. JavaScript Fundamentals\Homework\JSF-OperatorsExpressions\OperatorsExpressions\obj\Debug\OperatorsExpressions.pdb

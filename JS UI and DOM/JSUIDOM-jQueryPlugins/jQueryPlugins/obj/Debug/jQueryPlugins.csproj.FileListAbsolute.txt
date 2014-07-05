@@ -1,5 +1,0 @@
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-jQueryPlugins\jQueryPlugins\bin\jQueryPlugins.dll
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-jQueryPlugins\jQueryPlugins\bin\jQueryPlugins.pdb
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-jQueryPlugins\jQueryPlugins\obj\Debug\jQueryPlugins.csprojResolveAssemblyReference.cache
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-jQueryPlugins\jQueryPlugins\obj\Debug\jQueryPlugins.dll
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-jQueryPlugins\jQueryPlugins\obj\Debug\jQueryPlugins.pdb

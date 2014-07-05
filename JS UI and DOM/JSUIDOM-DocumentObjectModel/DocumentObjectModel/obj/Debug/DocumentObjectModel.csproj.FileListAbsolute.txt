@@ -1,5 +1,0 @@
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-DocumentObjectModel\DocumentObjectModel\bin\DocumentObjectModel.dll
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-DocumentObjectModel\DocumentObjectModel\bin\DocumentObjectModel.pdb
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-DocumentObjectModel\DocumentObjectModel\obj\Debug\DocumentObjectModel.csprojResolveAssemblyReference.cache
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-DocumentObjectModel\DocumentObjectModel\obj\Debug\DocumentObjectModel.dll
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-DocumentObjectModel\DocumentObjectModel\obj\Debug\DocumentObjectModel.pdb

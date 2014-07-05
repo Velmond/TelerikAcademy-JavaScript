@@ -1,5 +1,0 @@
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-EventModel\EventModel\bin\EventModel.dll
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-EventModel\EventModel\bin\EventModel.pdb
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-EventModel\EventModel\obj\Debug\EventModel.csprojResolveAssemblyReference.cache
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-EventModel\EventModel\obj\Debug\EventModel.dll
-D:\Velmond\School\Telerik\08. JavaScript UI & DOM\Homework\JSUIDOM-EventModel\EventModel\obj\Debug\EventModel.pdb
