@@ -1,4 +1,6 @@
 var dataModule = (function () {
+    'use strict';
+
     return {
         FIELD: {
             WIDTH: 81,
