@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+    <link href="styles/studentManagementAppStyles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<input type="text" id="name-input" placeholder="Student name"/>
+<input type="number" id="grade-input" placeholder="Grade" min="1" max="12"/>
+<button id="add-student-btn">Add</button>
+<input type="number" id="id-input" placeholder="ID" min="1"/>
+<button id="remove-student-btn">Remove by ID</button>
+<section id="popup">
+    <div id="success"></div>
+    <div id="error"></div>
+</section>
+<table id="students-table">
+    <tr>
+        <th>ID:</th>
+        <th>Name:</th>
+        <th>Grade</th>
+    </tr>
+</table>
+<strong>Couldn't make the removing work for some reason... don't know how to fix it.</strong>
+<script src="scripts/libs/jquery-2.1.1.min.js"></script>
+<script src="scripts/libs/require.js" data-main="scripts/studentManagementApp.js"></script>
+</body>
+</html>

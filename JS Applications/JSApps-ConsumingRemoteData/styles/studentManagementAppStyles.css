@@ -1,0 +1,63 @@
+input[type=text] {
+    padding: 5px 10px;
+}
+
+input[type=number] {
+    padding: 5px 0 5px 10px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+section#popup {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+    section#popup div {
+        position: relative;
+        z-index: 100;
+        width: 300px;
+        padding: 5px 10px;
+        border-radius: 15px;
+        border: 1px solid;
+        text-align: center;
+    }
+
+        section#popup div#success {
+            border-color: darkgreen;
+            background-color: lightgreen;
+        }
+
+        section#popup div#error {
+            border-color: darkred;
+            background-color: lightsalmon;
+        }
+
+table#students-table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    table#students-table td, th {
+        border: 1px solid black;
+        text-align: center;
+    }
+
+        table#students-table td.id {
+            width: 40px;
+        }
+
+        table#students-table td.name {
+            width: 120px;
+        }
+
+        table#students-table td.grade {
+            width: 80px;
+        }
+
+strong {
+    color: darkred;
+}

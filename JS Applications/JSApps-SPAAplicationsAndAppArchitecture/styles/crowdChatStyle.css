@@ -1,0 +1,87 @@
+div,
+span,
+form,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: darkgreen;
+    padding: 35px;
+    font-family: "Segoe UI Light", "Segoe WPC", "Segoe UI", Helvetica, Arial, "Arial Unicode MS", Sans-Serif;
+    font-size: 14px;
+}
+
+#chat-container {
+    text-align: center;
+}
+
+    #chat-container a {
+        font-family: "Segoe UI Light", "Segoe WPC", "Segoe UI", Helvetica, Arial, "Arial Unicode MS", Sans-Serif;
+        font-size: 14px;
+    }
+
+    #chat-container input {
+        outline: none;
+        border-radius: 10px;
+    }
+
+        #chat-container input.btn {
+            color: darkgreen;
+            background-color: greenyellow;
+            padding: 5px 10px;
+            display: inline-block;
+            border-style: none;
+        }
+
+            #chat-container input.btn:hover {
+                background-color: limegreen;
+            }
+
+    #chat-container #chat-form,
+    #chat-container #login-form {
+        width: 400px;
+        background: lightgreen;
+        padding: 25px 0;
+        border: 1px solid forestgreen;
+        border-radius: 25px;
+    }
+
+        #chat-container #login-form p {
+            margin: -5px 5px 5px 5px;
+        }
+
+        #chat-container #login-form #login-name {
+            color: darkgreen;
+            background-color: greenyellow;
+            padding: 5px 10px;
+            border: none;
+        }
+
+        #chat-container #chat-form #chat {
+            height: 270px;
+            width: 330px;
+            color: darkgreen;
+            background: greenyellow;
+            padding: 10px;
+            margin: 0 auto 25px auto;
+            border-style: none;
+            text-align: left;
+            overflow-wrap: break-word;
+            -ms-word-wrap: break-word;
+            overflow-y: scroll;
+        }
+
+        #chat-container #chat-form #message {
+            width: 295px;
+            color: darkgreen;
+            background-color: greenyellow;
+            padding: 5px 10px;
+            border-style: none;
+        }
+
+    #chat-container .invalid-input {
+        box-shadow: darkred 0px 0px 5pt 1pt;
+    }

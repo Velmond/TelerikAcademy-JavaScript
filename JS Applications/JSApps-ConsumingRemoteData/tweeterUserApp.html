@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <link href="styles/twitterFetcherStyles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<strong class="highlight">Used the solution found by Jason Mayes as Twitter has changed its API and it is no longer as public as before. Getting people's tweets is no longer that easy.</strong>
+<br/>
+<label for="tweets-count-input">Input how many tweets you want to get [0-20]: </label>
+<input type="number" id="tweets-count-input" value="5" min="0" max="20"/>
+<h2>Query 1: Latest <span id="tweets-count">5</span> tweets and retweets by CollageHumor</h2>
+<div id="tweet-container"></div>
+<script type="text/javascript" src="scripts/libs/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="scripts/twitterFetcher.js"></script>
+<script type="text/javascript" src="scripts/twitterUserTweets.js"></script>
+</body>
+</html>
